@@ -1,0 +1,3 @@
+$totalprice = Cart::subtotal();
+
+          $gtotal = floatval( preg_replace( '#[^\d.]#', '', $totalprice ) );
